@@ -23,25 +23,56 @@ Mehrere Besonderheiten zeichnen die moderne Cajon im Vergleich zu anderen Tromme
 //Besonderheit der Cajon
 Das ist auch der Charme an der Cajon: Sie erlaubt, mit relativ wenig Aufwand umfangreiche Grooves und Fills zu spielen. So schafft sie eine Basis für andere Instrumente, die sonst nur das Schlagzeug erzeugen kann.
 
-//todo: Bild von Cajon einfügen
+
+#figure(
+  image("assets/img/cajon.png", width: 60%)
+
+)
 
 = Schlagtechnik - Das "Wie?"
 
 == Die Sitzposition
 Beim Spielen auf der Cajon muss man den Rücken nicht sonderlich beugen. Im Allgemeinen bespielt man nur die obere Hälfte der Schlagfläche und lehnt die Cajon etwas zurück, um diese besser erreichen zu können.
 
-//todo: Bild von richtiger und falscher Schlagposition einfügen
+#figure(
+  grid(
+    columns: 2,
+    inset: 1em,
+    image("assets/img/sitzposition_falsch.png"),
+    image("assets/img/sitzposition_richtig.png")
+  ),
+  caption: [Falsche Sitzposition (links) und richtige Sitzposition (rechts)]
+)
 
 == Konzept: Der Base-Schlag
 Für den ersten Schlag nimmt man die Finger der Hand locker zusammen und wölbt die Hand leicht ein. Um die Schlagposition zu finden, kann man die Hand an die Mitte der oberen Kante der Schlagfläche legen und von da noch ungefähr 3-4 cm nach unten gehen. Dann kann man die Hand - ganz locker - auf die Schlagfläche schlagen um einen warmen, vollen Sound zu erreichen. Dieser ist das Pendant zur "Base-drum" am Schlagzeug, der größten, liegenden Trommel. Deswegen wird er im weiteren als "Base-Schlag" bezeichnet.
 
-//todo: Bild von Base-Schlag-position und Base-drum beim Schlagzeug einfügen
+#figure(
+  grid(
+    columns: 2,
+    inset: 1em,
+    image("assets/img/base.png"),
+    image("assets/img/base_schlag.png")
+  ),
+  caption: [Die Base-drum beim Schlagzeug (links) und die Base-Schlag-position beim Cajon (rechts)]
+)
+
 
 == Konzept: Der Snare-Schlag
 Der nächste Schlag beginnt mit der gleichen Handhaltung, jedoch wird die Hand dieses mal so an der Schlagfläche angelegt, dass der Handballen überhalb (nicht auf) der Schlagfläche liegt. Wenn man nun die rechte Hand noch etwas nach rechts und die linke Hand nach links bewegt, sodass beide Hände mit ausreichend Abstand nebeneinander platziert sind, ist die Grundposition des Cajonspielens erreicht. In diese Stellung kehrt man meist nach einem Base-Schlag wieder zurück.
 Beim Schlagen in dieser Position ergibt sich ein heller, dominanter Sound. Dieser ist ganz ähnlich zur Snare-Drum beim Schlagzeug, auf der beispielsweise auch ein Marsch oder Trommelwirbel gespielt wird. Deswegen wird er im weiteren "Snare-Schlag" genannt.
 
-//TODO: Bild von Snare-Schlag-position und Snare-drum beim Schlagzeug einfügen
+#figure(
+  grid(
+    columns: 2,
+    inset: 1em,
+    image("assets/img/snare.png"),
+    image("assets/img/snare_schlag.png")
+  ),
+  caption: [Die Snare-Drum beim Schlagzeug (links) und die Snare-Schlag-position beim Cajon (rechts)]
+)
+
+
 
 == Übung: Periodische Schläge
 Wenn du die Haltung und das Schlagen üben willst, kannst du einfach in periodischen Abständen Base- oder Snare-Schläge durchführen. Wechsel auch mal die Hand, damit du die Schläge mit beiden Händen meisterst. Probier dich doch mal mit unterschiedlichen Links/Rechts bzw. Base/Snare Abfolgen aus! Im nächsten Kapitel lernen wir dann, wie wir das dann auch systematisch tun können.
@@ -92,7 +123,7 @@ Theoretisch sind bei der Aufteilung in kürzere Noten (Subdivision) keine Grenze
 
 Auch die Anzahl der Noten, in die eine Note "aufgespalten" wird, kann anders gewählt werden. Mit drei ergeben sich Triolen, mit fünf Quintolen und so weiter. Triolen können in der Praxis interessant sein, sind jedoch an dieser Stelle noch nicht wichtig.
 
-== Übung: Grooves auf Sechnzehntel Ebene
+== Übung: Grooves auf Sechzehntel-Ebene
 Was nützt uns dies beim Spielen? Wenn wir den Schlägen unserer Grooves erlauben, sich nicht nur wie vorhin auf der Achtel-Ebene, sondern auch auf der Sechzehntel-Ebene zu platzieren, ergeben sich interessantere Grooves:
 
 #figure(
